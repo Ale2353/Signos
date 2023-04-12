@@ -1,0 +1,92 @@
+body{
+    text-align:center;
+    background-image: url(imgFundo.png);
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+}
+header{
+ background-image: url( https://media3.giphy.com/media/E5112Itpfx7G8zzYoV/giphy.gif );
+ padding: 80px;
+ background-position: center;
+ background-size: cover;
+
+}
+
+div{
+    padding: 120px;
+}
+
+input{
+    color: aliceblue;
+   background-color: black;
+    border-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    font-family: 'Acme', sans-serif;
+    background-color: black;
+    color: rgb(248, 153, 36);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    color: aliceblue;
+
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+#imagem{
+    text-align: center;
+    width: 70%;
+    height: 120%;
+  
+}
+
+#frase{
+    padding: 80px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+footer{
+    font-size: 20px;
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(248, 153, 36)  ;
+    text-align: center;
+   
+}
+
+a:hover {
+ color:rgb(38, 97, 103) ;
+
+}
+
+.git{
+    font-size: 35px;
+}
+

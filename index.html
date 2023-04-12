@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signos do Horóscopo</title>
+</head>
+<body>
+    
+ <header> 
+       ....
+</header>
+
+           <h1>Signos do Zodíaco</h1>
+           <p> Características dos Signos </p>
+
+           
+    <input type="text" id="signos">
+    <button onclick="escolhaSigno()">Buscar</button>
+    <div id="frase"></div>
+
+   
+ <div id="img"> <img  src="img1 (2).png" alt="#" id="imagem" ></div>
+
+    <script>
+        function escolhaSigno() {
+            var texto
+            var signo = document.querySelector("#signos").value
+            var img = document.getElementById('imagem')
+         
+
+            switch (signo) {
+                case "Áries":
+                    texto = "Por ser impulsivo, o ariano pode magoar as pessoas com suas palavras. Mas, em compensação, é generoso com todos, especialmente com a família e os amigos. Assim, sempre que alguém precisar de uma força, o ariano estará ali para ajudar."
+                    img.src = ' https://www.clarin.com/img/2021/03/31/iBDgpK4HX_360x240__1.jpg'
+                    break
+
+                case "Touro":
+                    texto = "Taurinos gostam de cultivar relações firmes e duradouras. Por isso, adoram conviver com seus familiares e amigos, e quando estão com eles, sabem demonstrar todo o seu carinho."
+                    img.src = 'https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2021/04/15/1935212636-6-curiosidades-sobre-os-taurinos-no-amor-familia-e-trabalho-17325.jpg '
+                    break
+
+                case "Gêmeos":
+                   texto = "Os geminianos conseguem transmitir alegria por onde passam, inclusive no círculo familiar. Estão sempre planejando reuniões com os amigos e passeios interessantes para escapar da rotina." 
+                   img.src = 'https://img.nsctotal.com.br/wp-content/uploads/legacy/s3fs-public/graphql-upload-files/Simbolo%20de%20Gemeos%20-%20shutterstock.jpg'
+                     break
+
+                 case "Câncer":    
+                    texto = "Os cancerianos costumam tratar os amigos e familiares com muito carinho. No entanto, há momentos onde preferem se trancar no quarto a conversar com a família. Mas logo isso passa e eles voltam a conviver com todos numa boa."  
+                    img.src = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nsctotal.com.br%2Fnoticias%2Fsigno-de-cancer-e-regido-pela-lua-conheca-principais-caracteristicas&psig=AOvVaw2PgxakrTMqHATwgftJ28yZ&ust=1681351051449000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCNjqvKPZnf4CFQAAAAAdAAAAABAD '
+                       break 
+
+                  case "Leão":       
+                    texto = "O signo de Leão é um líder nato, assim, seja para planejar uma festa em família ou até mesmo fazer um mutirão de faxina em casa, eles estão sempre no comando das atividades."
+                    img.src = 'https://p2.trrsf.com/image/fget/cf/1200/675/middle/images.terra.com/2021/05/07/1469917016-6-curiosidades-sobre-o-signo-de-leao-17448.jpg '
+                         break
+                    
+                case " Virgem":       
+                    texto = "A relação dos virginianos com a família e os amigos é repleta de sinceridade e lealdade. Por conta disso, eles costumam ser consultados para dar conselhos. São pessoas que gostam de receber todos em casa e proporcionar o máximo de conforto possível para as visitas."
+                    img.src = 'https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2020/08/18/como-aproveitar-a-energia-de-virgem-saiba-agora-15740.jpeg '
+                         break 
+
+                case "Libra":       
+                    texto = "Os librianos fazem de tudo para viver em harmonia com seus amigos e familiares. Às vezes, acabam sendo um pouco introspectivos por influência do seu elemento, o Ar. Porém, eles geralmente são pessoas sociáveis."
+                    img.src = 'https://img.nsctotal.com.br/wp-content/uploads/legacy/s3fs-public/graphql-upload-files/Simbolo%20de%20Libra%20-%20shutterstock.jpg '
+                         break   
+
+                case "Escorpião":       
+                    texto = "O signo de Escorpião é intenso em suas relações, por isso, quando resolve se dedicar à família ou aos amigos, entregasse de corpo e alma. Além disso, dedicam parte das suas energias no cuidado e controle das pessoas que amam, afinal, eles adoram comandar."
+                    img.src = 'https://joaobidu.com.br/images/large/2021/10/22/6-motivos-para-amar-o-signo-de-escorpiao-18408.jpg '
+                         break
+
+                case "Sagitário":       
+                    texto = "Viver ao lado de um sagitariano é sempre uma surpresa, isso porque, eles gostam de reunir a família e os amigos para realizar passeios diferentes ou atividades que fujam da rotina."
+                    img.src = ' https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/11/21/1668368405-edicasecentauro.jpg'
+                         break
+  
+                 case "Capricórnio":       
+                    texto = " A pessoa de Capricórnio gosta de preservar as tradições da família e as amizades verdadeiras, principalmente aquelas que ela conhece há tempos."
+                    img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXBWRyfO58I9vJ0rH1VR_HDDrWHcc2Gpl9UnmPx6QPjZ5xfX5rzFWD7C2fmU5KwkQN0i0&usqp=CAU '
+                         break  
+                         
+                case "Aquário":       
+                    texto = "Aquarianos adoram conversar sobre os mais diversos assuntos com os familiares e amigos, mas dificilmente mudam de opinião sobre um assunto.  "
+                    img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8CUfv7H3dznKnGnsnxR8BFNsfS_nVmo3SYPhpzaMutRATy4J7E2rQDBzsFMVLjgGsXRw&usqp=CAU'
+                         break 
+                         
+                case "Peixes":       
+                    texto = "Peixes é um dos signos mais afetuosos do Zodíaco, assim, o pisciano age de maneira atenciosa e amorosa nas suas relações pessoais e se sente muito bem ao lado da família e dos amigos. "
+                    img.src = 'https://img.nsctotal.com.br/wp-content/uploads/legacy/s3fs-public/graphql-upload-files/Simbolo%20de%20Peixes%20-shutterstock.jpg '
+                    
+                         break        
+
+
+                default: 
+                    texto = "Insira um signo existente"   
+            }
+
+            document.getElementById("frase").innerHTML = texto
+        }
+    </script>
+
+ <Footer>
+        criado por <a href=" https://www.linkedin.com/in/alexandra-padilha-86a1b0270/ ">akey_alee</a> <a href="https://github.com/Ale2353 " id="git"> |Github</a>
+</Footer>
+
+
+</body>
+
+</html>
